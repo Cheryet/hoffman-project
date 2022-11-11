@@ -1,0 +1,42 @@
+
+
+
+.background-image {
+  /* border: 1px solid red; */
+  max-width: 100%;
+  height: 86vh;
+  display: block;
+  background-image: url('https://images.squarespace-cdn.com/content/v1/61fd5b9651305c4f3bdeafb3/119d4b72-ac7d-485a-88f8-b202a2d96ebb/University+District+3.jpg');
+  background-position: 80% 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.logo-header {
+  width: 100%;
+  height: 14vh;
+  /* border: 1px solid red; */
+  background-color: black;
+
+  
+}
+
+.logo-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  margin-top: 0.6rem;
+  margin-left: 2rem;
+  height:12vh;
+}
+
+
+
+.menu-icon {
+  margin-top:1.5rem;
+  margin-right: 5rem;
+  color: white;
+}
