@@ -1,7 +1,37 @@
 
-/* Presets for evertthing */
 
-body {
-  margin: 0;
-  padding: 0;
+.about-box {
+  padding: 50px 25px;
+  background-color:#fff3e9;
+}
+
+.header-title {
+  line-height: 1.5;
+}
+
+.header-text {
+  line-height: 2;
+  margin-bottom: 3rem;
+  
+}
+
+.hero-text-box {
+  margin-top: 2rem;
+  padding: 40px 25px;
+  background-color: #ffffff;
+  text-align: center;
+}
+
+.hero-text-one {
+  margin-bottom: 3rem;
+}
+
+.hero-text-two {
+  margin-bottom: 3rem;
+}
+
+
+
+.btn-one {
+  margin-bottom: 1.2rem;
 }

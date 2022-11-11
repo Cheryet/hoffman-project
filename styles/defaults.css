@@ -1,8 +1,16 @@
 
 /* Presets for evertthing */
+h1, h2, h3, h4{
+  margin: 0px;
+  padding: 0px
 
+
+}
 body {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  font-family: sans-serif;
+  line-height: 2;
 }
+
