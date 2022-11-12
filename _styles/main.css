@@ -2,7 +2,7 @@
 /* ABOUT BOX AREA */
 
 .about-box {
-  padding: 50px 25px;
+  padding: 40px 25px;
   margin-top: 100px;
   background-color:#fff3e9;
 }
@@ -15,7 +15,6 @@
   line-height: 2;
   letter-spacing: 0.05rem;
   margin-bottom: 3rem;
-  
 }
 
 .hero-text-box {
@@ -43,7 +42,7 @@
   margin-bottom: 1.2rem;
 }
 
-/* SHOW CASE PHTO BOX */
+/* ~~~~~~ SHOW CASE PHOTO BOX ~~~~~~~ */
 
 .showcase-photo-box {
   height: 120vh;
@@ -78,4 +77,52 @@
 .see-more-btn {
   color: white;
   width: 75%;
+}
+
+/*  ~~~~~~~~~ SERVICES BOX ~~~~~~~~~~~~~~ */
+
+.service-image {
+  height: 30vh;
+  width: 100%;
+  background-image: url('https://concordstoneworks.com/wp-content/uploads/2016/02/paver-patio');
+  background-position: 80% 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+}
+
+.service-box {
+  padding: 20px 25px;
+  background-color:#fff3e9;
+}
+
+.service-title {
+  padding-bottom: 2rem;
+  line-height: 1.5;
+}
+
+/*  ~~~~~~~~ CONTACT FORM ~~~~~~~~~~~~~ */
+
+.contact-us {
+ 
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-form input {
+  width: 90%;
+  margin: 10px 0px;
+}
+
+#textarea {
+  height: 10rem;
+}
+
+#firstname {
+  height: 3rem;
 }
