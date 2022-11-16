@@ -35,7 +35,8 @@
 }
 
 .logo {
-  margin-top: 0.6rem;
+  margin-top: 0.3rem;
+  margin-bottom: 0.3rem;
   margin-left: 2rem;
   height:12vh;
 }
@@ -43,7 +44,12 @@
 
 
 .menu-icon {
-  margin-top:1.5rem;
-  margin-right: 4rem;
+  margin-top:1rem;
+  margin-bottom: 1rem;
   color: white;
+}
+
+#menu-icon {
+  padding: 3rem 3rem;
+  border: 1px solid white;
 }
