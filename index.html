@@ -29,8 +29,8 @@
 </head>
 <body>
   <!-- Main background IMG at top of page -->
-  <div class="background-image">
-    <button class="quote-btn">Request a free Quote Today!</button class="quote-btn">
+  <div class="background-image" id="home">
+    <a class="quote-btn" href="#contact">Request a free Quote Today!</a>
   </div>
 
   <header>
@@ -42,11 +42,11 @@
       </div>
       <nav id="nav" class="nav">
           <ul class="nav-items">
-              <li class="home"><a href="">Home</a></li>
-              <li class="about"><a href="">About</a></li>
-              <li class="gallery"><a href="">Gallery</a></li>
-              <li class="services"><a href="">Services</a></li>
-              <li class="contact"><a href="">Contact Us</a></li>
+              <li class="nav-item home"><a href="#home">Home</a></li>
+              <li class="nav-item about"><a href="#about">About</a></li>
+              <li class="nav-item gallery"><a href="">Gallery</a></li>
+              <li class="nav-item services"><a href="#services">Services</a></li>
+              <li class="nav-item contact"><a href="#contact">Contact Us</a></li>
           </ul>
       </nav>
     </div>
@@ -55,7 +55,7 @@
 
   <main>
     <div class="main-box">
-      <div class="about-box">
+      <div class="about-box" id="about">
         <div class="header-text">
           <h1 class="header-title">Stunning landscapes designed for everyday life.</h1>
           <hr>
@@ -66,7 +66,7 @@
               <p class="hero-text-two">
                 Our goal is to exceed customer expectations by providing top-quality landscaping and concrete services that add value to their property, through expert craftsmanship, customer-centered design, and exceptional service.
               </p>
-              <a class="btn about-btn" href="">Get a free Quote!</a>
+              <a class="btn about-btn" href="#contact">Get a free Quote!</a>
               <p class="or-text">or</p>
               <a class="btn about-btn" href="">See our services</a>
             </div>
@@ -81,7 +81,7 @@
         <a class="btn gallery-btn ">See our Work!</a>
       </div> 
 
-      <div id="myCarousel" class="carousel slide" data-ride="carousel">
+      <div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="10000">
         <div class="carousel-indicators">
           <button type="button" data-target="#myCarousel" data-slide-to="0" class="carousel-btn active" aria-current="true" aria-label="Slide 1"></button>
           <button type="button" data-target="#myCarousel" data-slide-to="1" aria-label="Slide 2" class="carousel-btn"></button>
@@ -149,8 +149,8 @@
         </button>
       </div>
 
-      <div class="service-image"></div>
-      <div class="service-box">
+      <div class="service-image" id="services"></div>
+      <div class="service-box" >
         <div class="service-text">
           <h1 class="service-title">Let us help you on your next project </h1>
           <p>At Hofman Industries, we understand the importance of a beautiful outdoor space. That's why we offer a wide range of landscaping services to help you create the backyard oasis of your dreams. From basic lawn maintenance to complete landscape design and installation, we have the expertise and experience to bring your vision to life.</p>
@@ -171,9 +171,15 @@
         </div>
       </div>
 
-      <div class="contact-us">
+      <div class="contact-us" id="contact">
         <h1 class="contact-title">Request a Quote</h1>
-        <p class="contact-text">Fill out the form below or contact us at <b>(PhoneNumber)</b></p>
+        <p class="contact-text">Fill out the form below or contact us at: </p>
+        <p class="aaron-contact">
+          <b>Aaron Hofman - Owner/Operator<br>
+            Hofman.industries@gmail.com <br>
+            (403)-715-3112</b>
+        </p>
+        
         <form action="" method="POST" class="contact-form">
           <label for="first-name">First Name</label>
           <input type="text" name="first-name" placeholder="John" id="#firstname">
@@ -192,8 +198,16 @@
   </main>
 
   <footer>
-    <!-- Social media links -->
-    <!-- Review us on google -->
+    <div class="social-icons">
+      
+      <p class="footer-text">Leave us a Review on Google!</p>
+      <div class="social-container">
+        <p class="footer-text">Follow our accounts!</p>
+        <a class="insta-icon" href="https://www.instagram.com/hofman.industries/"><i class="fa-brands fa-instagram icon-insta"></i></a>
+        
+      </div>
+      <a class="bino-text">~ Made By Bino ~</a>
+    </div>
   </footer>
 
   

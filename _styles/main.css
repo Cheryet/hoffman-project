@@ -138,6 +138,8 @@
   justify-content: space-evenly;
   align-items: center;
 
+  padding: 2rem 0rem;
+
 }
 
 .demo-photo {
@@ -151,6 +153,7 @@
   align-items: center;
   background-color: white;
   padding: 1rem;
+  margin: 1rem
   
 
 }
@@ -211,6 +214,12 @@
   line-height: normal;
 }
 
+.aaron-contact {
+  margin-top: 0.5rem;
+  line-height: 1.1;
+  text-align: center;
+}
+
 form {
   display: flex;
   flex-direction: column;
@@ -249,6 +258,30 @@ textarea {
   align-self: end;
   margin-top: 0.5rem;
   box-shadow: 2px 2px 2px;
+}
+
+footer {
+  padding-top: 1rem;
+  background-color: #ff931f;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+
+}
+
+.footer-text {
+  margin: 0;
+}
+.icon-insta {
+  color: black;
+  font-size: 2rem;
+}
+
+.bino-text {
+  margin-top: 1.5rem;
+  font-size: 0.75rem;
 }
 
 

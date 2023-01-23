@@ -17,15 +17,26 @@
 
 .quote-btn {
   background-color: #ff931f;
+  color: black;
   border: none;
   border-radius: 4px;
   box-shadow: 2px 2px 2px;
   font-size: 1.2rem;
   padding: 0.2rem 1.5rem;
+  text-decoration: none;
 }
 
 .quote-btn:active{
   box-shadow: none;
+  text-decoration: none;
+  color: inherit;
+}
+.quote-btn:link,
+.quote-btn:visited,
+.quote-btn:focus {
+  background: #ff931f;
+  color: black;
+  text-decoration: none;
 }
 
 #main-nav {
