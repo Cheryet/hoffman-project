@@ -53,6 +53,51 @@
   margin-bottom: 1.2rem;
 }
 
+/* ~~~~~~ REVIEW CARDS ~~~~~~ */
+
+.reviews-container {
+  background-color: whitesmoke;
+  display: flex;
+  justify-content: center;
+  padding: 2rem;
+
+}
+
+.review-card {
+  width: 95%;
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(128, 128, 128, 0.191);
+  border-radius: 5px;
+}
+
+.review-rating {
+display:flex;
+flex-direction: row;
+align-items: center;
+}
+
+.fa-star {
+  color: rgb(255, 196, 0);
+  font-size: 0.8rem;
+}
+
+.review-date{
+  margin-left: 1rem;
+  margin-bottom: 0;
+  font-size: 0.7rem;
+}
+
+.review-text {
+  font-size: 0.8rem;
+  line-height: 1.1;
+  margin-top: 1rem;
+}
+
+
 /* ~~~~~~ SHOW CASE PHOTO BOX ~~~~~~~ */
 
 .showcase-photo-box {
