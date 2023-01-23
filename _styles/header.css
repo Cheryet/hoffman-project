@@ -10,6 +10,22 @@
   background-position: 80% 50%;
   background-repeat: no-repeat;
   background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.quote-btn {
+  background-color: #ff931f;
+  border: none;
+  border-radius: 4px;
+  box-shadow: 2px 2px 2px;
+  font-size: 1.2rem;
+  padding: 0.2rem 1.5rem;
+}
+
+.quote-btn:active{
+  box-shadow: none;
 }
 
 #main-nav {
