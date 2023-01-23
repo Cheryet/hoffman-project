@@ -29,6 +29,7 @@
 }
 
 .logo-box {
+  height: 14vh;
   display: flex;
   justify-content: space-between;
   align-items: center;

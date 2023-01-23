@@ -4,13 +4,14 @@
 
 
 .about-box {
-  padding: 40px 25px;
+  padding: 2rem;
   margin-top: 120px;
   background-color:#fff3e9;
 }
 
 .header-title {
   line-height: 1.5;
+  letter-spacing: 0.1rem;
 }
 
 .header-text {
@@ -22,16 +23,17 @@
 .hero-text-box {
   margin-top: 2rem;
   padding: 40px 25px;
+  border-radius: 10px;
   background-color: #ffffff;
   text-align: center;
 }
 
 .hero-text-one {
-  margin-bottom: 3rem;
+  margin-bottom: 2rem;
 }
 
 .hero-text-two {
-  margin-bottom: 3rem;
+  margin-bottom: 2rem;
 }
 
 .btn {
