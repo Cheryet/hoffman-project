@@ -55,16 +55,19 @@
 
 /* ~~~~~~ REVIEW CARDS ~~~~~~ */
 
-.reviews-container {
+
+
+
+.carousel-item {
   background-color: whitesmoke;
-  display: flex;
-  justify-content: center;
   padding: 2rem;
+  margin: 0px auto;
 
 }
 
 .review-card {
   width: 95%;
+  height: 15rem;
   padding: 1.5rem;
   display: flex;
   flex-direction: column;
@@ -72,12 +75,13 @@
   justify-content: center;
   background-color: rgba(128, 128, 128, 0.191);
   border-radius: 5px;
+  margin: 0px auto;
 }
 
 .review-rating {
-display:flex;
-flex-direction: row;
-align-items: center;
+  display:flex;
+  flex-direction: row;
+  align-items: center;
 }
 
 .fa-star {
@@ -87,8 +91,13 @@ align-items: center;
 
 .review-date{
   margin-left: 1rem;
+  margin-top: 0.3rem;
   margin-bottom: 0;
   font-size: 0.7rem;
+}
+
+.review-name{
+  font-size: 1.5rem;
 }
 
 .review-text {
@@ -96,6 +105,27 @@ align-items: center;
   line-height: 1.1;
   margin-top: 1rem;
 }
+
+.carousel-btn {
+  border: none;
+}
+
+.carousel-control-prev, .carousel-control-next {
+  background: none;
+  border: none;
+  padding: 0px;
+}
+
+
+
+
+ .carousel-control-next,
+.carousel-control-prev /*, .carousel-indicators */ {
+    filter: invert(75%);
+}
+
+
+
 
 
 /* ~~~~~~ SHOW CASE PHOTO BOX ~~~~~~~ */
