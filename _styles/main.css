@@ -36,9 +36,15 @@
   margin-bottom: 2rem;
 }
 
-.btn {
+.about-btn {
   font-family: 'Almarai', sans-serif;
-  font-weight: bold;
+  color: black;
+  background-color: #ff931f;
+  box-shadow: 3px 3px 3px;
+}
+
+.or-text {
+  margin-top: 1rem;
 }
 
 
@@ -64,11 +70,11 @@
   width: auto;
   height: 250px;
   border: 2px solid black;
-
   display: flex;
   justify-content: center;
   align-items: center;
   background-color: white;
+  padding: 1rem;
   
 
 }
@@ -78,8 +84,11 @@
   
 }
 
-.see-more-btn {
-  color: white;
+.gallery-btn {
+  font-family: 'Almarai', sans-serif;
+  color: black;
+  background-color: #ff931f;
+  box-shadow: 3px 3px 3px;
   width: 75%;
 }
 
@@ -103,30 +112,29 @@
 .service-title {
   padding-bottom: 2rem;
   line-height: 1.5;
+  letter-spacing: 0.1rem;
 }
 
 /*  ~~~~~~~~ CONTACT FORM ~~~~~~~~~~~~~ */
 
 .contact-us {
- 
+  padding: 2rem 1rem;
 }
 
-.contact-form {
+form {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
 }
 
-.contact-form input {
-  width: 90%;
-  margin: 10px 0px;
+label {
+  margin: 0;
+  font-size: 0.8rem;
 }
 
-#textarea {
-  height: 10rem;
+input, textarea {
+  margin-bottom: 0.5rem;
 }
 
-#firstname {
-  height: 3rem;
-}
+
+
+
