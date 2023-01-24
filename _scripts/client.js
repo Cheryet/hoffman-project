@@ -26,5 +26,9 @@ $(document).ready(function () {
   };
 
   $menuIcon.on("click", menuHandler);
-  $navItem.on("click", hideMenu);
+
+  const windowSize = $(window).width();
+  if (windowSize < 992) {
+    $navItem.on("click", hideMenu);
+  }
 });

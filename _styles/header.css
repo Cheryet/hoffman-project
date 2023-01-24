@@ -82,3 +82,19 @@
   /* border: 1px solid white; */
   padding: 3rem 3rem;
 }
+
+@media only screen and (min-width: 992px) {
+
+  #main-nav {
+    display: flex;
+    flex-direction: row;
+  }
+  #menu-icon {
+    display: none;
+  }
+
+  .quote-btn {
+    font-size: 2rem;
+  }
+  
+}

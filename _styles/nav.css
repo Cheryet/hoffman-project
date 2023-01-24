@@ -20,7 +20,6 @@
 }
 .nav-items li {
   list-style-type: none;
-  
   font-size: 1.5rem;
   padding: 0.5rem 0;
   margin-bottom: 0rem;
@@ -31,7 +30,42 @@
 }
 
 .nav-items a:active {
-  font-size: 1.2rem;
   text-decoration: none;
+}
 
+.nav-link:link,
+.nav-link:visited,
+.nav-link:focus,
+.nav-link:active{
+  text-decoration: none;
+}
+
+
+@media only screen and (min-width: 992px) {
+
+  #nav{
+    position: relative;
+    display: block;
+    background-color: black;
+    
+  }
+
+  .nav-items {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    margin-top: 0.55rem;
+    
+  }
+
+  .nav-item {
+    margin-right: 2.5rem;
+  }
+
+  .nav-link:active {
+    font-size: 1.5rem;
+  
+  }
+  
 }
