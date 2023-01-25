@@ -274,10 +274,18 @@ footer {
 .footer-text {
   margin: 0;
 }
+
+.google-link {
+  color: black;
+}
+
+
 .icon-insta {
   color: black;
   font-size: 2rem;
 }
+
+
 
 .bino-text {
   margin-top: 1.5rem;
@@ -291,7 +299,7 @@ footer {
   .header-text {
     display: flex;
     flex-direction: row;
-    height: 75vh;
+    min-height: 75vh;
 
   }
 
@@ -379,6 +387,92 @@ footer {
   .review-text {
     font-size: 1.1rem;
   }
+
+  /* Contact Form */
+
+  .contact-title {
+    font-size: 3rem;
+  }
+
+  .contact-text {
+    font-size: 1.5rem;
+  }
+
+  .aaron-contact {
+    font-size: 1.25rem;
+  }
+
+  form {
+    display: grid;
+    margin: 3rem 4rem;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 1rem;
+  }
+
+  .first-name {
+    grid-column: 1;
+  }
+
+  .last-name-label{
+    grid-column: 2;
+    grid-row: 1;
+  }
+
+  .last-name-input {
+    grid-column: 2;
+    grid-row: 2;
+  }
+
+  .email-label,
+  .email-input {
+    grid-column: 1;
+  }
+
+   .phone-label{
+    grid-column: 2;
+    grid-row: 3;
+   }
+   
+   .phone-input {
+    grid-column: 2;
+  }
+
+  .textarea {
+    grid-column: 1 / -1;
+  }
+
+  .submit {
+    grid-column: 2;
+    margin-left: auto;
+    font-size: 1.2rem;
+    width: 50%;
+  }
+
+  label {
+    font-size: 1rem;
+  }
+
+  input,
+  textarea {
+    font-size: 1.2rem;
+  }
+
+  /* Footer */
+
+  .footer-text {
+    font-size: 1.2rem;
+  }
+
+  .google-link {
+    color: black;
+  }
+
+  .icon-insta:hover {
+    color: blue;
+  
+  }
+
+ 
 
 
 
