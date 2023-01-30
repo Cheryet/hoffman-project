@@ -133,7 +133,8 @@
 
 .showcase-photo-box {
   height: 120vh;
-  background-color: hsl(31, 100%, 60%);
+  /* background-color: hsl(31, 100%, 60%); */
+  background-color: rgba(0, 0, 0, 0.843);
   background-image: url("https://www.transparenttextures.com/patterns/concrete-wall.png");
   display: flex;
   flex-direction: column;
