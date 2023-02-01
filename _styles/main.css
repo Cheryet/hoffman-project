@@ -281,11 +281,20 @@ footer {
 }
 
 
-.icon-insta {
+
+
+.icon-insta, .facebook-icon {
   color: black;
   font-size: 2rem;
 }
 
+.icon-insta {
+  margin: 0.5rem;
+}
+
+.facebook-icon {
+  margin: 0.5rem;
+}
 
 
 .bino-text {
