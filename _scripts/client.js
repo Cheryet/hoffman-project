@@ -39,6 +39,8 @@ $(document).ready(function () {
 
   const $excavationService = $(".excavation-li");
   const $excavationDropdown = $(".excavation-info-container");
+  const $excavationDownCaret = $(".excavation-down-caret");
+  let toggle = true;
 
   const excavationHandler = () => {
     $excavationDropdown.slideToggle();
