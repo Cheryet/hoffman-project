@@ -12,6 +12,7 @@ $(document).ready(function () {
     else $navbar.removeClass("sticky");
   });
 
+  //Nav Menu Bars for mobile
   const $menuIcon = $("#menu-icon");
   const $nav = $("#nav");
 
@@ -31,4 +32,17 @@ $(document).ready(function () {
   if (windowSize < 992) {
     $navItem.on("click", hideMenu);
   }
+
+  //Service Info dropdowns
+
+  //Excavation
+
+  const $excavationService = $(".excavation-li");
+  const $excavationDropdown = $(".excavation-info-container");
+
+  const excavationHandler = () => {
+    $excavationDropdown.slideToggle();
+  };
+
+  $excavationService.on("click", excavationHandler);
 });
